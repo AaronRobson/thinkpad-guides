@@ -67,6 +67,9 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
   c:232
   ```
 
+####
+Save ```Ctrl-O``` (output) and Exit ```Ctrl-X```
+
 #### Make the settings take effect
 
 #### Reboot the laptop
