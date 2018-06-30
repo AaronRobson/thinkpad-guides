@@ -1,6 +1,7 @@
 # thinkpad-guides
 ThinkPad laptop how-tos with GNU/Linux.
 This guide has been produced with a Thinkpad (Lenovo) X200 laptop from Gluglug running Trisquel.
+Various settings of the laptop may not be set up properly when you first install the Operating System or upgrade to a new LTS (Long Term Support) version.
 
 ## Assumptions
 1. You are running Trisquel or another Debian based distro that uses the X11 Windowing System.
@@ -69,6 +70,21 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 
 ####
 Save ```Ctrl-O``` (output) and Exit ```Ctrl-X```
+
+### Volume adjustment
+
+## Volume Up
+KeyCode 123
+
+``XF86AudioRaiseVolume```
+
+## Volume Down
+KeyCode 122
+
+```XF86AudioLowerVolume```
+
+## Mute
+Could not be discovered by ```xev```.
 
 #### Make the settings take effect
 
