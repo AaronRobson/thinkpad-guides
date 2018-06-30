@@ -68,8 +68,8 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
   c:232
   ```
 
-####
-Save ```Ctrl-O``` (output) and Exit ```Ctrl-X```
+#### Save
+```Ctrl-O``` (output) and Exit ```Ctrl-X```
 
 ### Volume adjustment
 
