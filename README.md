@@ -73,20 +73,20 @@ Save ```Ctrl-O``` (output) and Exit ```Ctrl-X```
 
 ### Volume adjustment
 
-## Volume Up
+#### Volume Up
 KeyCode 123
 
 ``XF86AudioRaiseVolume```
 
-## Volume Down
+#### Volume Down
 KeyCode 122
 
 ```XF86AudioLowerVolume```
 
-## Mute
+#### Mute
 Could not be discovered by ```xev```.
 
-#### Make the settings take effect
+### Make the settings take effect
 
 #### Reboot the laptop
 
