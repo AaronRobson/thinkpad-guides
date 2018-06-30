@@ -2,45 +2,53 @@
 ThinkPad laptop how-tos with GNU/Linux.
 This guide has been produced with a Thinkpad (Lenovo) X200 laptop from Gluglug running Trisquel.
 
-## Brightness Controls
+## Assumptions
+1. You are running Trisquel or another Debian based distro that uses the X11 Windowing System.
+2. You know how to get to the terminal in the GUI ```Ctrl-Alt-T```
+3. You know how to install new programs from the terminal e.g. ```sudo apt-get install program_name```
 
-### Bash Command
+### Brightness Controls
+
+#### Bash Command
 The commands that will control the brightness from the terminal.
 
-#### Brightness Up
-
+##### Brightness Up
 ```xbacklight -inc 10```
 
-#### Brightness Down
+##### Brightness Down
 ```xbacklight -dec 10```
 
-### Find the keycodes that correspond to the keys
+#### Find the keycodes that correspond to the keys
 
-#### Brightness Up
+1. Run ```xev``` from the terminal.
+2. Click the keys in the little GUI window that pops up.
+3. The terminal output will tell you the keycodes and names.
+
+##### Brightness Up
 FN-Home
 
 KeyCode: 233
 
 ```XF86MonBrightnessUp```
 
-#### Brightness Down
+##### Brightness Down
 FN-End
 
 KeyCode: 232
 
 ```XF86MonBrightnessDown```
 
-### Connect the keymappings up
+#### Connect the keymappings up
 
 http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 
-#### Make the user override file for the keybindings
+##### Make the user override file for the keybindings
 ```xbindkeys -d > ~/.xbindkeysrc```
 
-#### Open the keybindings override file
+##### Open the keybindings override file
 ```nano ~/.xbindkeysrc```
 
-#### Add the following to the file
+##### Add the following to the file
 
 ```
 "xbacklight -inc 10"
@@ -50,7 +58,7 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
   XF86MonBrightnessDown
 ```
 
-##### This acts oddly and seems to trigger a lot more than neccessary
+###### This acts oddly and seems to trigger a lot more than neccessary
 ```
 "xbacklight -inc 10"
   c:233
@@ -59,7 +67,7 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
   c:232
   ```
 
-### Make the settings take effect
+#### Make the settings take effect
 
 #### Reboot the laptop
 
