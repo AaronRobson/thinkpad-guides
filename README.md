@@ -18,12 +18,16 @@ The commands that will control the brightness from the terminal.
 
 #### Brightness Up
 FN-Home
+
 KeyCode: 233
+
 ```XF86MonBrightness```
 
 #### Brightness Down
 FN-End
+
 KeyCode: 232
+
 ```XF86MonBrightnessDown```
 
 ### Connect the keymappings up
@@ -54,4 +58,3 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 "xbacklight -inc 10"
   c:233
   ```
-  
