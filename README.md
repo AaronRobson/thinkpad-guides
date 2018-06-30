@@ -21,7 +21,7 @@ FN-Home
 
 KeyCode: 233
 
-```XF86MonBrightness```
+```XF86MonBrightnessUp```
 
 #### Brightness Down
 FN-End
