@@ -58,3 +58,9 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 "xbacklight -inc 10"
   c:233
   ```
+
+### Make the settings take effect
+
+#### Reboot the laptop
+
+```shutdown -r now```
