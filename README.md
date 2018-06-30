@@ -43,20 +43,20 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 #### Add the following to the file
 
 ```
-"xbacklight -dec 10"
-  XF86MonBrightnessDown
-
 "xbacklight -inc 10"
   XF86MonBrightnessUp
+
+"xbacklight -dec 10"
+  XF86MonBrightnessDown
 ```
 
 ##### This acts oddly and seems to trigger a lot more than neccessary
 ```
-"xbacklight -dec 10"
-  c:232
-
 "xbacklight -inc 10"
   c:233
+
+"xbacklight -dec 10"
+  c:232
   ```
 
 ### Make the settings take effect
