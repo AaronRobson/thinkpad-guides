@@ -1,7 +1,9 @@
 # thinkpad-guides
-ThinkPad laptop how-tos with GNU/Linux.
-This guide has been produced with a Thinkpad (Lenovo) X200 laptop from Gluglug running Trisquel.
-Various settings of the laptop may not be set up properly when you first install the Operating System or upgrade to a new LTS (Long Term Support) version.
+If you've just installed or updated a Linux distribution on your ThinkPad you may be wondering why some of the function keys to don't work.
+If so this guide is for you.
+Read on to discover how to get those brightness controls working again.
+
+This guide has been produced with a Lenovo ThinkPad X200 laptop from the company Gluglug which is running the Trisquel distribution.
 
 ## Assumptions
 1. You are running Trisquel or another Debian based distro that uses the X11 Windowing System.
