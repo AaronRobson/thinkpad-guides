@@ -49,7 +49,7 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 ##### Open the keybindings override file
 ```nano ~/.xbindkeysrc```
 
-##### Add the following to the file
+##### Add the following to the file (including quotes)
 
 ```
 "xbacklight -inc 10"
