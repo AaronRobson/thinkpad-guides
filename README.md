@@ -66,7 +66,7 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 
 "xbacklight -dec 10"
   c:232
-  ```
+```
 
 #### Save
 ```Ctrl-O``` (output) and Exit ```Ctrl-X```
@@ -76,7 +76,7 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
 #### Volume Up
 KeyCode 123
 
-``XF86AudioRaiseVolume```
+```XF86AudioRaiseVolume```
 
 #### Volume Down
 KeyCode 122
