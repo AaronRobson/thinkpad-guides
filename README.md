@@ -1,5 +1,5 @@
 # thinkpad-guides
-If you've just installed or updated a Linux distribution on your ThinkPad you may be wondering why some of the function keys to don't work.
+If you've just installed or updated a Linux distribution on your ThinkPad you may be wondering why some of the function keys don't work.
 If so this guide is for you.
 Read on to discover how to get those brightness controls working again.
 
