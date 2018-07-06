@@ -3,12 +3,21 @@ If you've just installed or updated a Linux distribution on your ThinkPad you ma
 If so this guide is for you.
 Read on to discover how to get those brightness controls working again.
 
-This guide has been produced with a Lenovo ThinkPad X200 laptop from the company Gluglug which is running the Trisquel distribution.
+This guide has been produced with a Lenovo ThinkPad X200 laptop from the company Gluglug.
+I have it running the Trisquel distribution as its operating system.
+This operating system provides the graphical windows using the X11 Windowing System which is why many of the commands we see later start with an `x`.
 
-## Assumptions
-1. You are running Trisquel or another Debian based distro that uses the X11 Windowing System.
-2. You know how to get to the terminal in the GUI ```Ctrl-Alt-T```
-3. You know how to install new programs from the terminal e.g. ```sudo apt-get install program_name```
+## Prerequisites
+The terminal is where we will spend most of this guide.
+You can get to the terminal by pressing `Ctrl-Alt-T`.
+From within the terminal you can enter textual commands and have them run by pressing the `Enter` or `Return` key.
+An example of a command is `ls` which will print on the screen the files and folders in the folder you are in.
+
+In the rest of this document you may come across a command for a program that you don't have installed on your computer.
+If for example say the `xbacklight` command when run says `xbacklight: command not found` then we'll need to get it installed.
+Enter the following command to ask to install it `sudo apt-get install xbacklight` the `sudo` means to 'elevate' the running of the rest of the command as the superuser (aka administrator or root user), this means that you get rights and abilities you don't ordinarily have (for security reasons).
+You will probably be asked to enter your password to continue.
+It may also ask if you are happy to use disk space to do so, please confirm by entering `y` for yes or `n` for no depending on the question.
 
 ### Brightness Controls
 
