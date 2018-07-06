@@ -61,7 +61,9 @@ http://littlesvr.ca/linux-stuff/articles/xbindkeys/xbindkeys.php
   XF86MonBrightnessDown
 ```
 
-###### This acts oddly and seems to trigger a lot more than neccessary
+##### Alternatively
+In my experience using the following meant that the buttons made the screen brightness flicker at random.
+From checking `xev` it seems that it triggers a lot more than neccessary. However your system may differ.
 ```
 "xbacklight -inc 10"
   c:233
