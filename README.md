@@ -24,8 +24,9 @@ The commands that will control the brightness from the terminal.
 #### Find the keycodes that correspond to the keys
 
 1. Run ```xev``` from the terminal.
-2. Click the keys in the little GUI window that pops up.
+2. Click the keys in the little "Event Tester" window that pops up.
 3. The terminal output will tell you the keycodes and names.
+4. Close the little "Event Tester" window to return to the terminal.
 
 ##### Brightness Up
 FN-Home
