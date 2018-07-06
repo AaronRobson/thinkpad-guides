@@ -15,7 +15,9 @@ An example of a command is `ls` which will print on the screen the files and fol
 
 In the rest of this document you may come across a command for a program that you don't have installed on your computer.
 If for example say the `xbacklight` command when run says `xbacklight: command not found` then we'll need to get it installed.
-Enter the following command to ask to install it `sudo apt-get install xbacklight` the `sudo` means to 'elevate' the running of the rest of the command as the superuser (aka administrator or root user), this means that you get rights and abilities you don't ordinarily have (for security reasons).
+Enter the following command to ask to install it `sudo apt-get install xbacklight` the `sudo` means to 'elevate' the running of the rest of the command as the superuser (aka administrator or root user), this means that you get rights and abilities you don't ordinarily have.
+Ordinary user accounts don't normally have these extra rights for security reasons.
+If your user isn't allowed to gain such rights using `sudo` then you can either get yourself added to the sudo group, login as the `root` account or using the command `su` elevate all commands afterwards in that terminal window, in such cases you will need the root password if such an account exists or help from the IT support person who set it up.
 You will probably be asked to enter your password to continue.
 It may also ask if you are happy to use disk space to do so, please confirm by entering `y` for yes or `n` for no depending on the question.
 
