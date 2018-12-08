@@ -7,6 +7,8 @@ This guide has been produced with a Lenovo ThinkPad X200 laptop from the company
 I have it running the Trisquel distribution as its operating system.
 This operating system provides the graphical windows using the X11 Windowing System which is why many of the commands we see later start with an `x`.
 
+Edit: I would recommend installing the Ubuntu OS as it has these things built in.
+
 ## Prerequisites
 The terminal is where we will spend most of this guide.
 You can get to the terminal by pressing `Ctrl-Alt-T`.
